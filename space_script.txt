@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS rockets CASCADE;
+CREATE TABLE rockets (
+  id                  bigserial, 
+  rocketid            varchar(50),
+  PRIMARY KEY (id)
+);
+
+
+
+DROP TABLE IF EXISTS launches;
+CREATE TABLE launches
+(
+    id               bigserial,
+    rocktid          varchar(255),
+    launchyear       varchar(255),
+    missionname      varchar(255),
+    links            text,
+    PRIMARY KEY (id)
+  
+);
+
