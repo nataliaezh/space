@@ -29,6 +29,9 @@ Spring DATA,
 Spring Web,
 Thymeleaf,
 PostgreSQL,
+Bootstrap,
+HTML,
+CSS,
 Lombok.
 
 
